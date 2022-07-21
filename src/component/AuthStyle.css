@@ -1,10 +1,12 @@
 body{
   /* margin:0;
   padding: 20px; */
-  /* background:url(https://wallpaperaccess.com/full/2449564.jpg) no-repeat center; */
-  background-color: #6a6f8c;
+  /* background:url(https://i.pinimg.com/originals/89/1b/e2/891be2c0c1824c5a74cd665835b38471.png) no-repeat center; */
+  background-image: url('picc.jpg');
+  background-size: cover ;
+  /* background-color: #719281; */
   color:#828c6a;
-  font:600 16px/18px 'Open Sans',sans-serif;
+  font:600 16px/18px  "Lucida Console", "Courier New", monospace;
 }
 *,:after,:before{box-sizing:border-box ; }
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -203,15 +205,18 @@ svg{
   background-color: transparent;
   color: rgb(0, 0, 0);
   align-items: center;
- height: min-content;
- width: min-content;
+ width: 350px !important;
+ width: 300px !important;
+ justify-content: space-around;
  font-size: 200%;
- font-family: 'Times New Roman', Times, serif;
+ font-family:  "Lucida Console", "Courier New", monospace;
  font-weight: bolder;
+ border-style: none !important;
+ text-align: center;
 }
 .card-img-top{
-  height: min-content;
-  width: min-content;
+  height: 300px !important;
+ width: 250px !important;
   border-radius: 30px;
 }
 img:hover{
@@ -232,10 +237,28 @@ li{
 h1.txt{
   font-size: 500%;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:  "Lucida Console", "Courier New", monospace;
   font-weight: bolder;
 }
 p.txt{
   font-size: 200%;
-  font-family:'Times New Roman', Times, serif
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.containerh1{
+  text-align: center;
+  justify-content: space-around;
+}
+h1.hh{
+  font-size: 100px;
+  font-family: "Lucida Console", "Courier New", monospace;
+color: azure;
+  font-weight: bolder;
+}
+
+.card-body,.card-title{
+  color: #fff !important;
+
+}
+.astl{
+ font-size: xx-large;
 }
